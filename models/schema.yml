@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: btc_stg
+    columns:
+      - name: HASH_KEY
+        tests:
+          - unique
+          - not_null
+      
